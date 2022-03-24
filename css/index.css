@@ -40,7 +40,8 @@
 }
 
 ::selection {
-    color: lightgrey;
+    color:lightgrey;
+    background:#009BFF;
 }
 
 html, body {
@@ -545,13 +546,12 @@ img {
     font-style: normal;
     font-size: 1.8vh;
     position:absolute;
-    background-color:rgba(255,255,255,0.2);
+    background-color:LightSteelBlue;
     bottom:20px;
     left:4px;
     right:4px;
     border-radius:4px;
     padding:12px;
-    /* overflow:hidden; */
     opacity:0;
     transition:.3s;
   }
@@ -560,7 +560,7 @@ img {
     opacity:1;
   }
   .textOverImage > h3{
-    color: #c8ddf7;
+    color: white;
     margin:0;
   }
 
