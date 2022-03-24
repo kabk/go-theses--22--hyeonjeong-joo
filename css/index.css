@@ -33,7 +33,7 @@ a {
 }
 
 #wrapper {
-  font-family: 'Sporting Grotesque_Regular';
+  font-family: Sporting Grotesque_Regular;
   font-weight: 100;
   font-size: 0.75rem;
   text-align:center;
@@ -216,7 +216,7 @@ a {
 }
 
 h1{
-  font-family: 'Sporting Grotesque_Bold';
+  font-family: Sporting Grotesque_Bold;
   font-weight:700;
   margin-top: 15%;
   text-align: center;
@@ -224,7 +224,7 @@ h1{
 }
 
 h2{
-  font-family: 'Sporting Grotesque_Regular';
+  font-family: Sporting Grotesque_Regular;
   font-weight:400;
   text-align: left;
   margin-top: 10%;
@@ -269,7 +269,7 @@ p {
 .sub, .sub2, .sub3{
   color: #c8ddf7;
   /* font-family: 'Sporting Grotesque_Bold', sans-serif; */
-  font-family: 'PicNic-Regular';
+  font-family: PicNic-Regular;
   font-weight:400;
   text-align: center;
   font-size: 8.2rem;
