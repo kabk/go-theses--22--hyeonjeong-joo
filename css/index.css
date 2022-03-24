@@ -1,13 +1,29 @@
 @import url("https://use.typekit.net/yfu5nrv.css");
 
 @font-face {
-  font-family: Sporting_Grotesque_Regular;
-  src: url(Sporting_Grotesque-Regular_web.otf);
+    font-family: 'SportingGrotesque-Regular';
+    src:url('SportingGrotesque-Regular.woff') format('woff'),
+        url('SportingGrotesque-Regular.woff2') format('woff2'),
+        url('SportingGrotesque-Regular.eot'),
+        url('SportingGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SportingGrotesque-Regular.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: Sporting_Grotesque_Bold;
-  src: url(Sporting_Grotesque-Bold_web.otf);
+    font-family: 'SportingGrotesque-Bold';
+    src:url('SportingGrotesque-Bold.woff') format('woff'),
+        url('SportingGrotesque-Bold.woff2') format('woff2'),
+        url('SportingGrotesque-Bold.eot'),
+        url('SportingGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SportingGrotesque-Bold.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -41,7 +57,7 @@ a {
 }
 
 #wrapper {
-  font-family: Sporting_Grotesque_Regular;
+  font-family: 'SportingGrotesque-Regular';
   font-weight: 100;
   font-size: 0.75rem;
   text-align:center;
@@ -224,7 +240,7 @@ a {
 }
 
 h1{
-  font-family: Sporting_Grotesque_Bold;
+  font-family: 'SportingGrotesque-Bold';
   font-weight:700;
   margin-top: 15%;
   text-align: center;
@@ -232,7 +248,7 @@ h1{
 }
 
 h2{
-  font-family: Sporting_Grotesque_Regular;
+  font-family: 'SportingGrotesque-Regular';
   font-weight:400;
   text-align: left;
   margin-top: 10%;
