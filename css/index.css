@@ -1,12 +1,12 @@
 @import url("https://use.typekit.net/yfu5nrv.css");
 
 @font-face {
-  font-family: Sporting Grotesque_Regular;
+  font-family: Sporting_Grotesque_Regular;
   src: url(Sporting_Grotesque-Regular_web.otf);
 }
 
 @font-face {
-  font-family: Sporting Grotesque_Bold;
+  font-family: Sporting_Grotesque_Bold;
   src: url(Sporting_Grotesque-Bold_web.otf);
 }
 
@@ -33,7 +33,7 @@ a {
 }
 
 #wrapper {
-  font-family: Sporting Grotesque_Regular;
+  font-family: Sporting_Grotesque_Regular;
   font-weight: 100;
   font-size: 0.75rem;
   text-align:center;
@@ -216,7 +216,7 @@ a {
 }
 
 h1{
-  font-family: Sporting Grotesque_Bold;
+  font-family: Sporting_Grotesque_Bold;
   font-weight:700;
   margin-top: 15%;
   text-align: center;
@@ -224,7 +224,7 @@ h1{
 }
 
 h2{
-  font-family: Sporting Grotesque_Regular;
+  font-family: Sporting_Grotesque_Regular;
   font-weight:400;
   text-align: left;
   margin-top: 10%;
