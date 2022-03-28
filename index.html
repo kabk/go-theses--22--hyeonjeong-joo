@@ -25,11 +25,19 @@
             hoverDelay: 250
         }
     );
+
+    let options = {
+       scrollOffset: 1000,
+     };
+
+     new ActiveMenuLink(".navbar", options);
    </script>
 
    <script>
    $(document).ready(function() {
+
        changeColor("transition", 90, 120, 150, 145, 195, 200);
+
    });
    </script>
 
@@ -37,29 +45,29 @@
 
 <body>
 <nav class="navbar">
-  <div id="wrapper">
-    <div id="navigation_menu2" class="nav-side">
-      <li><a href="#categorical" class="is-green">categorical</a></li>
-        <li><a href="#thinking" class="is-green">thinking</a></li>
-        <li><a href="#Korea" class="is-grey">Korea</a></li>
-        <li><a href="#which_became" class="is-grey">which became</a></li>
+    <div id="wrapper">
+      <div id="navigation_menu2" class="nav-side">
+        <li><a href="#categorical" class="is-green">categorical</a></li>
+          <li><a href="#thinking" class="is-green">thinking</a></li>
+          <li><a href="#Korea" class="is-grey">Korea</a></li>
+          <li><a href="#which_became" class="is-grey">which became</a></li>
+      </div>
+      <div id="navigation_menu4" class="nav-side">
+          <li><a href="#de-categorization" class="is-blue">de-categorization</a></li>
+          <li><a href="#Conclusion">Conclusion</a></li>
+          <li><a href="#Bibliography">Bibliography</a></li>
+      </div>
+      <div id="navigation_menu3" class="nav-side">
+          <li><a href="#one" class="is-grey">one</a></li>
+          <li><a href="#Challenge" class="is-blue">Challenge</a></li>
+          <li><a href="#for" class="is-blue">for</a></li>
+      </div>
+      <div id="navigation_menu1" class="nav-side">
+        <li><a href="#Abstract">Abstract</a></li>
+          <li><a href="#Introduction">Introduction</a></li>
+          <li><a href="#The_dangers_of" class="is-green">The dangers of</a></li>
+      </div>
     </div>
-    <div id="navigation_menu4" class="nav-side">
-        <li><a href="#de-categorization" class="is-blue">de-categorization</a></li>
-        <li><a href="#Conclusion">Conclusion</a></li>
-        <li><a href="#Bibliography">Bibliography</a></li>
-    </div>
-    <div id="navigation_menu3" class="nav-side">
-        <li><a href="#one" class="is-grey">one</a></li>
-        <li><a href="#Challenge" class="is-blue">Challenge</a></li>
-        <li><a href="#for" class="is-blue">for</a></li>
-    </div>
-    <div id="navigation_menu1" class="nav-side">
-      <li><a href="#Abstract">Abstract</a></li>
-        <li><a href="#Introduction">Introduction</a></li>
-        <li><a href="#The_dangers_of" class="is-green">The dangers of</a></li>
-    </div>
-  </div>
   </nav>
 
   <div class="background"></div>
@@ -74,7 +82,7 @@
         <h1 class="sub3"><span>C</span><span>a</span><span>t</span><span>e</span><span>g</span><span>o</span><span>r</span><span>i</span><span>z</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span></h1>
         </div>
 
-        <div id="contents_item">
+        <div id="contents_item" class="is-first-item">
 
           <div id="Abstract" class="is-lightblue">
           <br>
@@ -342,7 +350,7 @@ by Otl Aicher)</h3>
       Termenón, I. (2020, May). Social Designer Gabriel Fontana Wants to Change How We Play Team Sports with MULTIFORM. True to Size. Retrieved March 12, 2022, from https://www.fitstruetosize.com/social-designer-gabriel-fontana-multiform-rotterdam/
     </p>
     <p class="Bibliography-edit">
-      The 38th parallel. (n.d.). [Photograph]. https://thewiki.kr/rev/%EC%82%BC%ED%8C%94%EC%84%A0/!0
+      The 38th parallel. (n.d.). [Photograph]. https://thewiki.kr/rev/<br>%EC%82%BC%ED%8C%94%EC%84%A0/!0
     </p>
     <p class="Bibliography-edit">
       Walthert, E. (n.d.). The Annex of Universal Languages [Photograph]. https://ewalthert.com/icons
