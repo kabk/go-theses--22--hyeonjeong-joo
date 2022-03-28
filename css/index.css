@@ -566,23 +566,21 @@ img {
     opacity:1;
   }
   .textOverImage > h3{
-    color: white;
+    color: #009BFF;
+    /* color: white; */
     margin:0;
   }
 
 .footnote{
-  z-index: -1;
-  padding: 10px;
+
   word-wrap: break-word;
   word-break: break-all;
   display: none;
-  background-color:black;
-  width:auto;
-  /* border-radius:1rem;
-  border: 2px solid white; */
-  font-size:0.7em;
-  line-height:1.2em;
-  text-align: left;
+  font-size: 1.8vh;
+  background-color:LightSteelBlue;
+  border-radius:4px;
+  padding:12px;
+  color: #009BFF;
 }
 sup:hover + .footnote{
   display: block;
