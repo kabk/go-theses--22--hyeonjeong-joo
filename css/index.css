@@ -288,8 +288,14 @@ p {
 .container{
   padding-top:15vh;
   position:relative;
+  position:absolute;
   width:100%;
   overflow-wrap: break-word;
+}
+.is-first-item{
+  position:relative;
+  display:block;
+  padding-top:100vh;
 }
 .sub, .sub2, .sub3{
   color: #c8ddf7;
@@ -591,6 +597,7 @@ img {
   /* position:relative;
   overflow:visible; */
   overflow-y: scroll;
+
 }
 
 .sub, .sub2, .sub3{
