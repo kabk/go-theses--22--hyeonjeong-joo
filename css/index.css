@@ -130,7 +130,7 @@ a {
   position: relative;
  text-decoration:none;
  display:block;
- padding:5%;
+ padding:3.8%;
 }
 
 #navigation_menu2 {
@@ -176,7 +176,7 @@ a {
   position: relative;
  text-decoration:none;
  display:block;
- padding:5%;
+ padding:3.8%;
 }
 
 #navigation_menu4 {
@@ -286,8 +286,7 @@ p {
 
 /* title animation */
 .container{
-  padding-top:15vh;
-  position:relative;
+  padding-top:13vh;
   position:absolute;
   width:100%;
   overflow-wrap: break-word;
@@ -299,7 +298,6 @@ p {
 }
 .sub, .sub2, .sub3{
   color: #c8ddf7;
-  /* font-family: 'Sporting Grotesque_Bold', sans-serif; */
   font-family: 'PicNic-Regular';
   font-weight:400;
   text-align: center;
@@ -566,26 +564,47 @@ img {
     opacity:1;
   }
   .textOverImage > h3{
-    color: #009BFF;
-    /* color: white; */
+    color: white;
     margin:0;
   }
 
 .footnote{
-
   word-wrap: break-word;
   word-break: break-all;
   display: none;
   font-size: 1.8vh;
+  font-style: normal;
   background-color:LightSteelBlue;
   border-radius:4px;
   padding:12px;
-  color: #009BFF;
+  /* color: #009BFF; */
+  color:white;
+  text-indent:initial;
+}
+sup{
+  opacity: 0.7;
 }
 sup:hover + .footnote{
   display: block;
 }
 
+@media (max-width: 1200px) {
+  .is-first-item{
+    padding-top:70vh;
+  }
+  .sub, .sub2, .sub3{
+    font-size: 5.7rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .is-first-item{
+    padding-top:70vh;
+  }
+  .sub, .sub2, .sub3{
+    font-size: 5.2rem;
+  }
+}
 @media (max-width: 779px) {
 
 #pic{
@@ -609,22 +628,30 @@ sup:hover + .footnote{
   /* position:relative;
   overflow:visible; */
   overflow-y: scroll;
-
 }
-
 .sub, .sub2, .sub3{
   font-size: 5.2rem;
 }
+.is-first-item{
+  padding-top:70vh;
 }
 
-@media (max-width: 1024px) {
-  .sub, .sub2, .sub3{
-    font-size: 5.2rem;
-  }
 }
 
 @media (max-width: 640px) {
   .sub, .sub2, .sub3{
-    font-size: 3.2rem;
+    font-size: 4rem;
   }
+  .is-first-item{
+    padding-top:50vh;
+  }
+}
+
+  @media (max-width: 440px) {
+    .sub, .sub2, .sub3{
+      font-size: 3.2rem;
+    }
+    .is-first-item{
+      padding-top:50vh;
+    }
 }
