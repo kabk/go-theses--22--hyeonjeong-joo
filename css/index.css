@@ -69,7 +69,6 @@ a {
 #wrapper li a:hover {
   color: white;
   text-decoration: none;
-  /* font-style: italic; */
   background-image: linear-gradient(90deg, transparent 10%, #009BFF 50%, transparent 90%);
   border-radius: 50px;
 }
@@ -115,7 +114,7 @@ a {
 
 #navigation_menu1 {
   position:fixed;
-  width:100vw;
+  width:100%;
   top:0%;
   left:0%;
   background-image: linear-gradient(to right, GhostWhite , LightSteelBlue);
@@ -124,7 +123,7 @@ a {
 #navigation_menu1 li {
  float:left;
  list-style-type:none;
- width:33.3%;
+ width:calc(100% / 3)
 }
 #navigation_menu1 li a {
   position: relative;
@@ -161,7 +160,7 @@ a {
 
 #navigation_menu3 {
   position:fixed;
-  width:100vw;
+  width:100%;
   right:0%;
   bottom:0%;
   transform: rotate(180deg);
@@ -170,7 +169,7 @@ a {
 #navigation_menu3 li {
  float:left;
  list-style-type:none;
- width:33.3%;
+ width:calc(100% / 3)
 }
 #navigation_menu3 li a {
   position: relative;
@@ -219,7 +218,6 @@ a {
 }
 .nav-side li a:hover, .nav-side li a.active{
   color:#FFF!important;
-  /* font-style: italic; */
 }
 
 #transition{
@@ -566,6 +564,8 @@ img {
   .textOverImage > h3{
     color: white;
     margin:0;
+    max-height:50%;
+    overflow-y:auto;
   }
 
 .footnote{
@@ -586,6 +586,15 @@ sup{
 }
 sup:hover + .footnote{
   display: block;
+}
+
+@media (hover: none) {
+#wrapper li a:hover, #wrapper li a:active{
+background:none;
+border-radius: 0;
+text-decoration: none;
+color: white !important;
+}
 }
 
 @media (max-width: 1200px) {
@@ -611,8 +620,9 @@ sup:hover + .footnote{
   position:relative;
   top:-30%;
   left:0%;
-  width: 70vw;
+  width: calc(100% - 10px);
   height: auto;
+  overflow:visible;
 }
 #wrapper {
   font-size: 0.9rem;
